@@ -1,0 +1,16 @@
+{
+  "name": "huddle-hq",
+  "version": "1.0.0",
+  "description": "Huddle HQ — the official Discord app of The Huddle Network",
+  "main": "src/index.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --env-file=.env src/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  }
+}
